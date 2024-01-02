@@ -1,0 +1,73 @@
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,rgb(23, 133, 229),rgb(214, 16, 148));
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    
+
+}
+.heading{
+    border-bottom: 1px solid white;
+}
+.content{
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 40px;
+}
+.second img{
+    height: 400px;
+    animation: pic1 2s linear infinite;
+    animation-direction: alternate;
+    
+
+}
+@keyframes pic1{
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.third img{
+    height: 400px;
+    animation: pic2 2s linear infinite;
+    animation-direction: alternate;
+    
+
+}
+@keyframes pic2{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+.first p{
+    line-height: 30px;
+}
+.third img{
+    height: 400px;
+}
+.content1{
+    display: flex;
+
+}
+.heading2 p{
+    line-height: 30px;
+}
+.content1{
+    padding: 40px;
+    gap: 20px;
+}
+.course1{
+    scroll-behavior: smooth;
+    transition: all 1s ease;
+}

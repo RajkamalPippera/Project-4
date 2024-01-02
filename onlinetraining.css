@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    background: linear-gradient(to right,lightgray,darkgray);
+   
+}
+.img1 img,.img2 img,.img3 img{
+    height: 265px;
+    transition: 0.5s;
+    border: 2px solid white;
+
+    
+
+
+}
+.img1 img:hover,.img2 img:hover,.img3 img:hover{
+    transform: translate(15px ,-15px);
+    box-shadow: 5px 5px 5px;
+   
+}
+
+.imagescontainer{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+   
+   
+}
+.maincontent p{
+    line-height: 30px;
+    padding: 20px;
+}
+    
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: centerss;
+}

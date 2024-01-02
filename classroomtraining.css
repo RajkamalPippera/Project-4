@@ -1,0 +1,65 @@
+.container{
+    width: 100%;
+    background-image: url(./imges/avil1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.first img{
+    height: 400px;
+    transition: 0.4s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 6);
+    animation: img1 2s ease infinite;
+    animation-direction: alternate;
+    border-radius: 10px;
+    border: 5px solid black;
+
+}
+@keyframes img1 {
+    from{
+        transform: scale(1.02);
+
+    }
+    to{
+        transform: scale(1.05);
+    }
+    
+}
+.first1 img{
+    height: 300px;
+    transition: 0.4s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 6);
+    animation: img1 2s ease infinite;
+    animation-direction: alternate;
+    border: 5px solid black;
+    border-radius: 10px;
+
+}
+@keyframes img2 {
+    from{
+        transform: scale(0);
+
+    }
+    to{
+        transform: scale(1);
+    }
+} 
+.main{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    
+
+
+}
+.content p{
+    line-height: 30px;
+}
+.main1{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+   
+
+}
