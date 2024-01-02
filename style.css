@@ -64,7 +64,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(./imges/laptop.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(laptop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -277,7 +277,7 @@ footer p{
 .bigcontainer{
     width: 100%;
     min-height: 100%;
-    background-image: url(./imges/soildcolor.avif);
+    background-image: url(soildcolor.avif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
